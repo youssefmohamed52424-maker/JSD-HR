@@ -1,0 +1,211 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"hdr_shortcuts\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>الاختصارات السريعة (Shortcuts)</b></span>\",\"col\":12}},{\"id\":\"sc_emp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"sc_act\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"JSD HR Action Request\",\"col\":3}},{\"id\":\"sc_com\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"JSD Sales Commission Log\",\"col\":3}},{\"id\":\"sc_bank\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"JSD Bank Payroll Transfer\",\"col\":3}},{\"id\":\"spc_1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hdr_links\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>إدارة الموارد البشرية والرواتب (JSD HR & Payroll)</b></span>\",\"col\":12}},{\"id\":\"crd_emp\",\"type\":\"card\",\"data\":{\"card_name\":\"بيانات الموظفين والبنوك\",\"col\":4}},{\"id\":\"crd_ops\",\"type\":\"card\",\"data\":{\"card_name\":\"الأداء والمكافآت والعمولات\",\"col\":4}},{\"id\":\"crd_pay\",\"type\":\"card\",\"data\":{\"card_name\":\"مسير الرواتب والتقارير\",\"col\":4}}]",
+ "creation": "2026-11-23 00:05:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "hr",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "JSD HR",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "بيانات الموظفين والبنوك",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ملفات الموظفين (Employees)",
+   "link_count": 0,
+   "link_to": "Employee",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "تعريف البنوك (Banks)",
+   "link_count": 0,
+   "link_to": "Bank",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "الأداء والمكافآت والعمولات",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "إعدادات مؤشرات الأداء (KPI Settings)",
+   "link_count": 0,
+   "link_to": "JSD KPI Settings",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "طلبات المكافآت والجزاءات (Action Requests)",
+   "link_count": 0,
+   "link_to": "JSD HR Action Request",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "سجل العمولات الشهرية (Commission Log)",
+   "link_count": 0,
+   "link_to": "JSD Sales Commission Log",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "مسير الرواتب والتقارير",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "هياكل الرواتب (Salary Structures)",
+   "link_count": 0,
+   "link_to": "Salary Structure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "إسناد هيكل راتب لموظف (Salary Assignment)",
+   "link_count": 0,
+   "link_to": "Salary Structure Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "المستحقات والخصومات الإضافية (Additional Salary)",
+   "link_count": 0,
+   "link_to": "Additional Salary",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "تشغيل مسير الرواتب (Payroll Entry)",
+   "link_count": 0,
+   "link_to": "Payroll Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "قسائم الرواتب (Salary Slips)",
+   "link_count": 0,
+   "link_to": "Salary Slip",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "تقرير تحويلات الرواتب البنكية (Bank Transfer)",
+   "link_count": 0,
+   "link_to": "JSD Bank Payroll Transfer",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-11-23 00:05:00.000000",
+ "modified_by": "Administrator",
+ "module": "Jsd Hr",
+ "name": "JSD HR",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Operations"
+  },
+  {
+   "role": "Top Management"
+  },
+  {
+   "role": "Accountant"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "JSD HR Action Request",
+   "link_to": "JSD HR Action Request",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "JSD Sales Commission Log",
+   "link_to": "JSD Sales Commission Log",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "label": "JSD Bank Payroll Transfer",
+   "link_to": "JSD Bank Payroll Transfer",
+   "type": "Report"
+  }
+ ],
+ "title": "JSD HR"
+}

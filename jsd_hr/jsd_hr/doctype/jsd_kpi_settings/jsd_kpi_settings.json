@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "creation": "2026-11-22 23:40:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "monthly_site_visits_target",
+  "evaluation_grace_months",
+  "extra_visit_bonus_amount"
+ ],
+ "fields": [
+  {
+   "default": "5",
+   "fieldname": "monthly_site_visits_target",
+   "fieldtype": "Int",
+   "label": "Monthly Site Visits Target",
+   "reqd": 1
+  },
+  {
+   "default": "3",
+   "fieldname": "evaluation_grace_months",
+   "fieldtype": "Int",
+   "label": "Evaluation Grace Period (Months)",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "extra_visit_bonus_amount",
+   "fieldtype": "Currency",
+   "label": "Extra Visit Bonus Amount"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2026-11-22 23:40:00.000000",
+ "modified_by": "Administrator",
+ "module": "Jsd Hr",
+ "name": "JSD KPI Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "System Manager",
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "role": "HR Manager",
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Operations"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

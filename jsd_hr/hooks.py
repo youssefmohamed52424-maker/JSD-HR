@@ -279,3 +279,35 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+
+# JSD HR & Payroll Automated Hooks
+doc_events = {
+	"JSD HR Action Request": {
+		"on_submit": "jsd_hr.api.payroll_integration.create_additional_salary_from_action"
+	},
+	"JSD Sales Commission Log": {
+		"on_submit": "jsd_hr.api.payroll_integration.push_commission_to_payroll"
+	}
+}
+
+fixtures = [
+	{"dt": "Custom Field", "filters": [["module", "=", "Jsd Hr"]]},
+	{"dt": "Workflow", "filters": [["document_type", "in", ["JSD HR Action Request"]]]}
+]
+
+doc_events["JSD Contract"] = {
+    "on_update": "jsd_hr.api.payroll_integration.generate_commissions_from_contract",
+    "on_submit": "jsd_hr.api.payroll_integration.generate_commissions_from_contract",
+}
+
+scheduler_events = {
+    "monthly": [
+        "jsd_hr.api.kpi_engine.evaluate_monthly_kpis"
+    ]
+}
+
+fixtures.extend([
+    {"dt": "Salary Component"},
+    {"dt": "Salary Structure"}
+])
